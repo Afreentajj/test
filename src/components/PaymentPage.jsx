@@ -1,6 +1,7 @@
 import React from "react";
 import { useCountries } from "use-react-countries";
 import { useNavigate } from "react-router-dom"; 
+import qr1 from "../assets/img/qr1.jpg"
 import {
   Card,
   CardHeader,
@@ -233,7 +234,7 @@ export default function PaymentPage() {
               <TabPanel value="qr" className="p-0">
                 <div className="mt-12 flex flex-col items-center gap-4">
                   <img
-                    src="https://dummyimage.com/300x300/000/fff&text=QR+Code"
+                    src="test\src\assets\img\qr1.jpg"
                     alt="QR Code"
                   />
                   <Button size="lg" className="py-4 px-8" onClick={handlePayWithQR}>Pay with QR</Button>
