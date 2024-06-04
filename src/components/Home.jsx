@@ -11,7 +11,7 @@ const Home = () => {
     <div className=" min-h-screen lg:min-h-[90vh] flex flex-col justify-center lg:flex-row items-center md:mx-32 mx-5">
       <div className=" flex flex-col text-center lg:text-start gap-5">
         <h1 className=" font-semibold text-5xl leading-tight">
-          Discover the Best Destinations
+        Explore Prime Destinations
         </h1>
         <p>
           With RoamRise you can experience new travel and the best tourist
